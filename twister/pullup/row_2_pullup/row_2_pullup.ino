@@ -66,7 +66,7 @@ void loop() {
   }
 
   //Servo Circuit
-  if (button7Reading == 0 && button9Reading == 0 && row_1 == 1 && row_3 == 1 && row_4 == 1 && row_5 == 1 && row_6 == 1) {
+  if (button7Reading == 0 && button9Reading == 0 && button10Reading == 0 && row_1 == 1 && row_3 == 1 && row_4 == 1 && row_5 == 1 && row_6 == 1) {
     digitalWrite(servo_Circuit, HIGH);
   }
   else {
