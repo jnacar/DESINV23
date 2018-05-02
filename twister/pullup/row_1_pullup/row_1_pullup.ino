@@ -76,7 +76,7 @@ void loop() {
   }
   
   //DC 1
-  if(button5Reading == 1023) {
+  if(button5Reading == 0) {
     digitalWrite(dc_1_Circuit, HIGH);
   }
   else {
@@ -84,7 +84,7 @@ void loop() {
   }
 
   //DC 2
-  if(button1Reading == 0 && button2Reading == 0 && button3Reading == 0 && button4Reading == 0 && button5Reading == 0) {
+  if(button2Reading == 0 && button3Reading == 0 && button4Reading == 0 && button5Reading == 0) {
     digitalWrite(dc_2_Circuit, HIGH);
   }
   else {
