@@ -58,7 +58,13 @@ void loop() {
     digitalWrite(servo_Circuit, LOW);
   }
 
-  //DC 1 Circuit NA
+  //DC 1 Circuit
+   if (button22Reading == 0) {
+    digitalWrite(servo_Circuit, HIGH);
+  }
+  else {
+    digitalWrite(servo_Circuit, LOW);
+  } 
 
   //DC 2 Circuit
   if (button22Reading == 0 && button23Reading == 0) {
